@@ -4,6 +4,7 @@ import numpy as np
 import os
 from datetime import datetime
 from PIL import Image,ImageFilter,ImageEnhance
+# 깃 연동
 
 def load_image(image_file) : 
     img = Image.open(image_file)
